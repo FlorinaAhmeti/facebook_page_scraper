@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as file:
     long_description = file.read()
 
-requirements = ['selenium==4.7.0',
+requirements = ['selenium==4.9.0',
                 'webdriver-manager==3.2.2',
                 'selenium-wire==5.1.0',
                 'python-dateutil==2.8.2']
