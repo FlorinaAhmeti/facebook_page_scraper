@@ -1,7 +1,7 @@
 <h1> Facebook Page Scraper </h1>
 
 [![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)](https://github.com/shaikhsajid1111/facebook_page_scraper/graphs/commit-activity)
-[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://opensource.org/licenses/MIT) [![Python >=3.6.9](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://opensource.org/licenses/MIT) [![Python >=3.6.9](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 <p> No need of API key, No limitation on number of requests. Import the library and <b> Just Do It !<b> </p>
 
@@ -46,7 +46,7 @@
 <h2 id="Prerequisites"> Prerequisites </h2>
 
 - Internet Connection
-- Python 3.6+
+- Python 3.7+
 - Chrome or Firefox browser installed on your machine
 <br>
 
@@ -92,7 +92,7 @@ meta_ai = Facebook_scraper(page_name, posts_count, browser, proxy=proxy, timeout
 
 ```
 
-<h3 id="scraperParameters"> Parameters for  <code>Facebook_scraper(page_name, posts_count, browser, proxy, timeout, headless, browser_profile) </code> class </h3>
+<h3 id="scraperParameters"> Parameters for  <code>Facebook_scraper(page_name, posts_count, browser, proxy, timeout, headless) </code> class </h3>
 <table>
 <th>
 <tr>
@@ -174,17 +174,6 @@ Whether to run browser in headless mode?. Default is True
 </td>
 </tr>
 
-<tr>
-<td>
-browser_profile
-</td>
-<td>
-String
-</td>
-<td>
-Path to the browser profile where cookies are stored and can be used for scraping data in an authenticated way.
-</td>
-</tr>
 
 </table>
 <br>
